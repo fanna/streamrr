@@ -2,7 +2,7 @@ require 'sinatra'
 require 'json'
 require 'pusher'
 
-set :port, 8989
+#set :port, 8989
 
 get '/' do
  erb :index
